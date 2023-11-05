@@ -5,5 +5,5 @@ pip install opencv-python ----> Instalar la biblioteca opencv (visión artificia
 Instrucciones:
 
 - Guardar el video a convertir en la carpeta video
-- El video se tiene que llamar "video"
 - ejecutar el codigo convertidor.py
+- No se puede poner un video con un nombre extenso de solo numeros
