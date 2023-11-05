@@ -33,12 +33,12 @@ def convertirVideoAImagen(carpetaSalida,video):
 
 
 
-archivos = os.listdir('video') #guardar todos los archivos de la carpeta video
+archivos = os.listdir("video") #guardar todos los archivos de la carpeta video
 print(archivos)
 
 i=0
 for archivo in archivos:
-   if archivo.endswith('.mp4'): #si termina en .mp4
+   if archivo.endswith(".mp4"): #si termina en .mp4
     print(archivo)
     nombreSinExtension, extension = os.path.splitext(archivo) #separe el nombre del archivo de la extension
     carpetaSalida=nombreSinExtension+"_"+str(i) #nombre de la carpeta donde se guardaran las imgs
